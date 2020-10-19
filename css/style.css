@@ -28,21 +28,31 @@ h2, h3 {
 
 h2 {
   font-size: 1.25rem;
+  padding-bottom: 24px;
 }
 
 h3 {
   font-size: 1.125rem;
+  padding-bottom: 18px;
 }
 
 /* Utilities */
 .container {
   margin: auto;
   overflow: auto;
-  padding: 0 20px;
+  padding: 0 24px;
 }
 
 .bg-dark {
   background: var(--primary);
+}
+
+.py-1 {
+  padding: 24px 0;
+}
+
+.py-2 {
+  padding: 28px 0;
 }
 
 /* Header */
@@ -52,6 +62,7 @@ header h2 {
 
 header p {
   color: var(--neutral-dark);
+  line-height: 26px;
 }
 
 header .guarantee {
@@ -61,6 +72,25 @@ header .guarantee {
 /* Info section */
 #info {
   color: white;
+}
+
+/* Subscription */
+
+#subscription p {
+  padding-bottom: 10px;
+}
+#subscription .price {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#subscription .price-period {
+  display: inline-block;
+  opacity: 0.5;
+  padding-left: 11px;
+  position: relative;
+  top: -6px;
 }
 
 /* Why us */
