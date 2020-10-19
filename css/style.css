@@ -3,6 +3,7 @@
 /* Custom props */
 :root {
   --primary: hsl(179, 62%, 43%);
+  --primary-light: hsla(179, 62%, 43%, .85);
   --highlight: hsl(71, 73%, 54%);
   --neutral-light: hsl(204, 43%, 93%);
   --neutral-dark: hsl(218, 22%, 67%);
@@ -22,6 +23,7 @@ html, body {
 
 h2, h3 {
   font-weight: bold;
+  color: white;
 }
 
 h2 {
@@ -30,4 +32,42 @@ h2 {
 
 h3 {
   font-size: 1.125rem;
+}
+
+/* Utilities */
+.container {
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.bg-dark {
+  background: var(--primary);
+}
+
+/* Header */
+header h2 {
+  color: var(--primary);
+}
+
+header p {
+  color: var(--neutral-dark);
+}
+
+header .guarantee {
+  color: var(--highlight);
+}
+
+/* Info section */
+#info {
+  color: white;
+}
+
+/* Why us */
+#why-us {
+  background: var(--primary-light)
+}
+
+#why-us li {
+  list-style-type: none;
 }
