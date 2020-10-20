@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 635px;
+  padding-top: 163px;
+  padding-bottom: 162px;
+}
+
+#subscription {
+  float: left;
+  width: 50%;
+  border-radius: 0 0 0 5px;
+  /* height: 100%; */
+}
+
+#why-us {
+  float: right;
+  width: 50%;
+  border-radius: 0 0 5px 0;
+}
+
