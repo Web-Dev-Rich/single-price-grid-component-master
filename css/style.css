@@ -19,6 +19,7 @@
 /* Core elements */
 html, body {
   font-family: Karla, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
 }
 
 h2, h3 {
@@ -67,6 +68,12 @@ header p {
 
 header .guarantee {
   color: var(--highlight);
+  font-size: 0.9375rem;
+  padding-bottom: 16px;
+}
+
+header .access {
+  font-size: 0.875rem;
 }
 
 /* Info section */
@@ -75,22 +82,27 @@ header .guarantee {
 }
 
 /* Subscription */
-
-#subscription p {
+#subscription .price-container {
   padding-bottom: 10px;
+  display: table-cell;
+
 }
 #subscription .price {
-  display: inline-block;
+  display: table-cell;
   font-size: 2em;
   font-weight: bold;
+  vertical-align: middle;
 }
 
 #subscription .price-period {
-  display: inline-block;
+  display: table-cell;
   opacity: 0.5;
   padding-left: 11px;
-  position: relative;
-  top: -6px;
+  vertical-align: middle;
+}
+
+.subscription button {
+  
 }
 
 /* Why us */
