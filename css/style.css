@@ -123,4 +123,7 @@ header .access {
 
 #why-us li {
   list-style-type: none;
+  font-size: 0.875rem;
+  line-height: 20px;
+  opacity: 0.75;
 }
