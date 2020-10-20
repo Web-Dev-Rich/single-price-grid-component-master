@@ -54,6 +54,10 @@ h3 {
   background: var(--primary-light);
 }
 
+.clr {
+  clear: both;
+}
+
 /* Header */
 header {
   background: white;
