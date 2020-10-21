@@ -63,6 +63,7 @@ header {
   background: white;
   border-radius: 5px 5px 0 0;
   padding: 25px;
+  height: 267px;
 }
 
 header h2 {
@@ -87,11 +88,13 @@ header .access {
 /* Info section */
 #info {
   color: white;
+  height: auto;
 }
 
 /* Subscription */
 #subscription {
   padding: 25px;
+  height: 228px;
 }
 
 #subscription .price-container {
@@ -137,6 +140,7 @@ header .access {
 #why-us {
   padding: 25px;
   border-radius: 0 0 5px 5px;
+  height: 227px;
 }
 
 #why-us li {

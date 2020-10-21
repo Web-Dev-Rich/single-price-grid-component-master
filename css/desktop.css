@@ -1,17 +1,46 @@
+/* Utilities */
 .wrapper {
   max-width: 635px;
-  padding-top: 163px;
-  padding-bottom: 162px;
+  padding: 163px 0 162px 0;
 }
 
+/* Header */
+header {
+  padding: 40px;
+  height: 216px;
+}
+
+header h2 {
+  font-size: 1.5rem;
+}
+
+header .guarantee {
+  font-size: 1.125rem;
+}
+
+header .access {
+  font-size: 1rem;
+  letter-spacing: -0.2px;
+}
+
+/* Subscription */
 #subscription {
   float: left;
-  width: 50%;
+  width: 51%;
+  padding: 40px;
   border-radius: 0 0 0 5px;
+  height: 259px;
 }
 
+#subscription p {
+  font-size: 16px;
+}
+
+/* Why us */
 #why-us {
   float: right;
-  width: 50%;
+  width: 49%;
+  padding: 40px;
   border-radius: 0 0 5px 0;
+  height: 259px;
 }
